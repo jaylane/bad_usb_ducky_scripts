@@ -1,5 +1,6 @@
 REM Opens Finder 
 ALT-GUI SPACE
+DELAY 500
 REM Opens Goto Folder Modal
 GUI-SHIFT g
 DELAY 500

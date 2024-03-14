@@ -1,11 +1,16 @@
-REM Opens the Spotlight Bar
-DELAY 1000
-GUI SPACE
-REM Enters the string Terminal into the Spotlight Bar and Enter to open it
+REM Opens Finder 
+ALT-GUI SPACE
+REM Opens Goto Folder Modal
+GUI-SHIFT g
 DELAY 500
-STRING Terminal
-DELAY 1000
+REM Enters path to Terminal.app
+STRING /Applications/Utilities/Terminal.app
+DELAY 500
+REM hits enter to navigate to utils folder and selects terminal app
 ENTER
+DELAY 500
+REM Opens Terminal
+GUI o
 REM echo's the String Hello World! and prints it to the terminal
 DELAY 500
 STRING echo Hello World!

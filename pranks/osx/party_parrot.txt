@@ -1,0 +1,23 @@
+REM Title: Party Parrot
+REM Author: Jeffrey Koopman | JKCTech
+REM Description: Shows a dancing ASCII Party Parrot in the console
+REM Target: OSX
+
+DEFAULTDELAY 250
+ALT-GUI SPACE
+DELAY 500
+REM Opens Goto Folder Modal
+GUI-SHIFT g
+DELAY 500
+REM Enters path to Terminal.app
+STRING /Applications/Utilities/Terminal.app
+DELAY 500
+REM hits enter to navigate to utils folder and selects terminal app
+ENTER
+DELAY 500
+REM Opens Terminal
+GUI o
+REM echo's the String Hello World! and prints it to the terminal
+DELAY 500
+STRING curl http://parrot.live
+ENTER
